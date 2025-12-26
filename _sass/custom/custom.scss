@@ -1,0 +1,34 @@
+// フォントサイズのカスタマイズ
+// Just the Docsテーマのカスタムスタイル
+
+// 基本フォントサイズを少し大きく
+$body-font-size: 16px;
+$body-line-height: 1.5;  // 行間を少し狭く（1.6 → 1.5）
+
+// 本文のフォントサイズと行間の調整
+body {
+  font-size: $body-font-size;
+  line-height: $body-line-height;
+}
+
+// メインコンテンツ
+.main-content {
+  font-size: $body-font-size;
+  line-height: $body-line-height;
+}
+
+// コードブロックのフォントサイズ調整
+code {
+  font-size: 15px;  // インラインコード（`code`形式）
+}
+
+pre code,
+.highlight code {
+  font-size: 14px;  // コードブロック（```形式）
+  line-height: 1.4; // コードブロックの行間
+}
+
+// 見出しサイズの微調整（必要に応じて）
+// h1 { font-size: 2em; }
+// h2 { font-size: 1.6em; }
+// h3 { font-size: 1.4em; }
