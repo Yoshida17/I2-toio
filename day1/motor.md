@@ -242,7 +242,7 @@ with SimpleCube(name=target_cube_name) as cube:
 
 
 
-## 総合チャレンジ 🏆
+## 総合チャレンジ
 
 ここまで学んだモーター制御APIを組み合わせて，以下の課題に挑戦しよう．
 
